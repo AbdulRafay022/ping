@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ping</title>
+  </head>
+  <body>
+    <!-- container -->
+    <div
+      class="max-w-2xl flex justify-center items-center flex-col mx-auto gap-8 mt-6 p-4 text-center"
+    >
+      <!-- logo -->
+      <img src="images/logo.svg" class="max-w-[140px]" alt="" />
+      <!-- heading -->
+      <h1 class="text-4xl text-gray font-light">
+        We are launching
+        <span class="font-medium text-veryDarkBlue"> soon!</span>
+      </h1>
+      <!-- decripition -->
+      <p class="text-lg text-gray -mt-4">subscribe and get notified</p>
+      <!-- Form -->
+      <form
+        action=""
+        class="w-full flex md:flex-row flex-col justify-center gap-4 -mt-3 relative"
+      >
+        <!-- Input -->
+        <input
+          type="email"
+          name="email"
+          placeholder="me@gmail.com"
+          class="border md:w-1/2 px-5 py-2 outline-veryDarkBlue border-veryDarkBlue rounded-full text-veryDarkBlue email-input md:mb-0 mb-4"
+        />
+        <!-- Error text -->
+        <label
+          for=""
+          class="absolute top-12 md:left-20 sm:left-1/4 error-text hidden text-lightRed"
+          >please provide a valid email</label
+        >
+        <button
+          class="bg-blue px-11 rounded-full font-semibold text-white bg-opacity-80 duration-700 ease-in-out transition-all hover:bg-opacity-100 hover:shadow-2xl py-2"
+          type="submit"
+        >
+          Notify me
+        </button>
+      </form>
+      <!-- hero image -->
+      <img src="images/illustration-dashboard.png" class="my-6" alt="" />
+      <!-- Footer -->
+      <footer class="flex gap-4 flex-col justify-center items-center">
+        <!-- Social icons -->
+        <div class="flex gap-4">
+          <a href="#">
+            <img src="images/icon-facebook.svg" alt="" />
+          </a>
+          <a href="#"> <img src="images/icon-twitter.svg" alt="" /> </a
+          ><a href="#"></a>
+          <img src="images/icon-instagram.svg" alt="" />
+          a>
+        </div>
+        <p class="text-gray">&copy; Copyright Ping. All rights reserved.</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
